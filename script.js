@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", () => {
     if (startBtn) startBtn.style.display = "none";
 
     // 문제 JSON 읽기
-    const res = await fetch("questions_new.json");
+    const res = await fetch("gas_questions.json?v=" + Date.now());
     const rawData = await res.json();
 
     // JSON 구조 표준화
@@ -176,3 +176,4 @@ document.addEventListener("DOMContentLoaded", () => {
   window.startExam = startExam;
 
 });
+
