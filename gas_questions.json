@@ -309,7 +309,7 @@
       "하단"
     ],
     "answer": 2,
-    "explanation": "nan"
+    "explanation": "적색:상단\n흰색:하단\n청색:좌측\n황색:우측"
   },
   {
     "id": 27,
@@ -2220,6 +2220,7 @@
     "explanation": "nan"
   }
 ]
+
 
 
 
