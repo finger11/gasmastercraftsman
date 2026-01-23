@@ -536,7 +536,7 @@
       "수소",
       "일산화탄소"
     ],
-    "answer": 3,
+    "answer": 2,
     "explanation": "산화에틸렌 : 3~80%"
   },
   {
@@ -753,7 +753,7 @@
       "1.89 kcal/m²·h·℃ 이상"
     ],
     "answer": 3,
-    "explanation": "nan"
+    "explanation": "내면 열전달률(kcal/m²·h) = 열통과율(kcal/m²·h)\n(18-12.5)×10=(18-(-11))×(x)"
   },
   {
     "id": 64,
@@ -2220,6 +2220,7 @@
     "explanation": "nan"
   }
 ]
+
 
 
 
